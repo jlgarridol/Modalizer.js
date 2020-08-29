@@ -1,0 +1,33 @@
+{
+  "name": "modalizer.js",
+  "version": "1.0.0",
+  "description": "Lightweight extension over bootstrap's modals to improve of the control, animations and visualization of modal windows.",
+  "main": "dist/js/modalizer.js",
+  "style": "dist/css/modalizer.css",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlgarridol/modalizerjs.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "modals",
+    "animation",
+    "navigation",
+    "css",
+    "javascript"
+  ],
+  "author": "Jose Luis Garrido-Labrador",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlgarridol/modalizerjs/issues"
+  },
+  "homepage": "https://github.com/jlgarridol/modalizerjs#readme",
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1"
+  }
+}
