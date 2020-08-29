@@ -1,5 +1,5 @@
 {
-  "name": "@jlgarridol/modalizer",
+  "name": "@jlgarridol/modalizer.js",
   "version": "1.0.0",
   "description": "Lightweight extension over bootstrap's modals to improve of the control, animations and visualization of modal windows.",
   "main": "dist/js/modalizer.js",
@@ -34,6 +34,7 @@
     "doc": "doc"
   },
   "devDependencies": {},
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
-
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
