@@ -3,7 +3,7 @@ Modalizer.js
 
 Lightweight extension over bootstrap's modals to improve of the control, animations and visualization of modal windows.
 
-![GitHub](https://img.shields.io/github/license/jlgarridol/modalizer.js?style=flat) [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jlgarridol/modalizerjs?style=flat)](https://github.com/jlgarridol/modalizer.js/releases) ![GitHub file size in bytes](https://img.shields.io/github/size/jlgarridol/modalizer.js/dist/js/modalizer.min.js?color=f7df1e&label=size&logo=javascript&style=flat) ![GitHub file size in bytes](https://img.shields.io/github/size/jlgarridol/modalizer.js/dist/css/modalizer.min.css?color=036fb8&label=size&logo=css3&logoColor=036fb8&style=flat) 
+![GitHub](https://img.shields.io/github/license/jlgarridol/modalizer.js?style=flat) [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jlgarridol/modalizer.js?style=flat)](https://github.com/jlgarridol/modalizer.js/releases) ![GitHub file size in bytes](https://img.shields.io/github/size/jlgarridol/modalizer.js/dist/js/modalizer.min.js?color=f7df1e&label=size&logo=javascript&style=flat) ![GitHub file size in bytes](https://img.shields.io/github/size/jlgarridol/modalizer.js/dist/css/modalizer.min.css?color=036fb8&label=size&logo=css3&logoColor=036fb8&style=flat) 
 ---
 Getting starting
 --
