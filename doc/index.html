@@ -53,7 +53,7 @@
                             <h3>Defaults modals</h3>
                             <div class="container">
                                 <div class="mx-2 my-5">
-                                    <button class="modalinit btn btn-lg btn-primary col-12 py-3 font-weight-bold" data-modal="standart" >Standart modal</button>
+                                    <button class="modalinit btn btn-lg btn-primary col-12 py-3 font-weight-bold" data-modal="standard" >standard modal</button>
                                 </div>
                                 <div class="mx-2 my-5">
                                     <button class="modalinit btn btn-lg btn-warning col-12 py-3 font-weight-bold" data-modal="fullscreen">Fullscreen modal</button>
@@ -109,15 +109,15 @@
                                     <p>Add class <code>modalinit</code> and modal's identifier in <code>data-modal</code> attribute to a <code>&lt;a&gt;</code>, <code>&lt;buttom&gt;</code> or any else HTML element.</p>
                                     <p>Add class <code>modalizer</code> to the modal <code>div</code></p>
                                     <p><strong>Example:</strong></p>
-                                    <pre><code class="html">&lt;a class="modalinit" data-modal="standart" href="#"&gt; Click to open&lt;/a&gt;
+                                    <pre><code class="html">&lt;a class="modalinit" data-modal="standard" href="#"&gt; Click to open&lt;/a&gt;
 
-&lt;div class="modal modalizer fade" id="standart" tabindex= "-1" role="dialog"&gt;
+&lt;div class="modal modalizer fade" id="standard" tabindex= "-1" role="dialog"&gt;
     ...
 &lt;/div&gt;</code></pre>
                                     <h5>Close a modal</h5>
                                     <p>Add class <code>closemodal</code> to a <code>&lt;a&gt;</code>, <code>&lt;buttom&gt;</code> or any else HTML element inside a modal <code>div</code></code>.</p>
                                     <p><strong>Example:</strong></p>
-                                    <pre><code class="html">&lt;div class="modal modalizer fade" id="standart" tabindex= "-1" role="dialog"&gt;
+                                    <pre><code class="html">&lt;div class="modal modalizer fade" id="standard" tabindex= "-1" role="dialog"&gt;
     ...
     &lt;button class="closemodal"&gt;Close&lt;/button&gt;
     ...
@@ -126,13 +126,13 @@
                                     <p>Use a <strong>Animate.css</strong> animation for open and close animation</p>
                                     <p>Add <code>data-animate-in</code> and <code>data-animate-out</code> with <i>Animate.css</i> animation (without animate__), remove class <code>fade</code> and add class <code>animate__animated</code> in modal</p>
                                     <p><strong>Example:</strong></p>
-                                    <pre><code class="html">&lt;div class="modal modalizer animate__animated" id="standart" tabindex= "-1" role="dialog" data-animate-in="zoomIn" data-animate-out="zoomOut"&gt;
+                                    <pre><code class="html">&lt;div class="modal modalizer animate__animated" id="standard" tabindex= "-1" role="dialog" data-animate-in="zoomIn" data-animate-out="zoomOut"&gt;
     ...
 &lt;/div&gt;</code></pre>
                                     <h4>Optionable modals</h4>
                                     <p>A optionable modal is which have multiple submodals inside and the user can navigate it between their.<br>To transform a modal into an optionable you need to add the <code>modal-optionable</code> class and assign a <code>data-stack</code> to it.<br>It is necessary create a instance of <code>MOD_Stack</code> with the same name in the <i>javascript</i></p>
                                     <p><strong>Example:</strong></p>
-                                    <pre><code class="html">&lt;div class="modal modalizer fade modal-optionable" data-stack="defaultStack" id="standart" tabindex= "-1" role="dialog"&gt;
+                                    <pre><code class="html">&lt;div class="modal modalizer fade modal-optionable" data-stack="defaultStack" id="standard" tabindex= "-1" role="dialog"&gt;
     ...
 &lt;/div&gt;
 &lt;script&gt;
@@ -148,7 +148,7 @@
                                     <br>In the case of going backwards, the highest submodal in the stack will go. If the stack is empty then the modal will be closed.
                                     <br>In addition, to enable the animation between submodals it is necessary add class <code>animate__animated</code> in the submodal.</p>
                                     <p><strong>Example</strong></p>
-                                    <pre><code class="html">&lt;div class="modal modalizer fade modal-optionable" data-stack="defaultStack" id="standart" tabindex= "-1" role="dialog"&gt;
+                                    <pre><code class="html">&lt;div class="modal modalizer fade modal-optionable" data-stack="defaultStack" id="standard" tabindex= "-1" role="dialog"&gt;
     &lt;div class="modal-dialog animate__animated" id="first_submodal" role="document"&gt;
         ...
         &lt;button class="beforeaction"&gt;Before&lt;/button&gt;
@@ -187,11 +187,11 @@
         </div>
 
         <!--Modals-->
-        <div class="modal modalizer animate__animated animate__fast" id="standart" tabindex="-1" role="dialog" data-animate-in="zoomIn" data-animate-out="zoomOut">
+        <div class="modal modalizer animate__animated animate__fast" id="standard" tabindex="-1" role="dialog" data-animate-in="zoomIn" data-animate-out="zoomOut">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Standart modal</h5>
+                        <h5 class="modal-title">standard modal</h5>
                         <button type="button" class="close align-self-end closemodal">
                             <span aria-hidden="true">&times;</span>
                         </button>

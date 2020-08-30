@@ -26,9 +26,9 @@ Add class ```modalizer``` to the modal div.
 
 **Example:**
 ```html
-<a class="modalinit" data-modal="standart" href="#"> Click to open</a>
+<a class="modalinit" data-modal="standard" href="#"> Click to open</a>
 
-<div class="modal modalizer fade" id="standart" tabindex= "-1" role="dialog">
+<div class="modal modalizer fade" id="standard" tabindex= "-1" role="dialog">
     ...
 </div>
 ```
@@ -38,7 +38,7 @@ Add class ```closemodal``` to a ```<a>```, ```<buttom>``` or any else HTML eleme
 
 **Example:**
 ```html
-<div class="modal modalizer fade" id="standart" tabindex= "-1" role="dialog">
+<div class="modal modalizer fade" id="standard" tabindex= "-1" role="dialog">
     ...
     <button class="closemodal">Close</button>
     ...
@@ -53,7 +53,7 @@ Add ```data-animate-in``` and ```data-animate-out``` with Animate.css animation 
 
 **Example:**
 ```html
-<div class="modal modalizer animate__animated" id="standart" tabindex= "-1" role="dialog" data-animate-in="zoomIn" data-animate-out="zoomOut">
+<div class="modal modalizer animate__animated" id="standard" tabindex= "-1" role="dialog" data-animate-in="zoomIn" data-animate-out="zoomOut">
         ...
 </div>
 ```
@@ -66,7 +66,7 @@ It is necessary create a instance of ```MOD_Stack``` with the same name in the *
 
 **Example:**
 ```html
-<div class="modal modalizer fade modal-optionable" data-stack="defaultStack" id="standart" tabindex= "-1" role="dialog">
+<div class="modal modalizer fade modal-optionable" data-stack="defaultStack" id="standard" tabindex= "-1" role="dialog">
     ...
 </div>
 <script>
@@ -88,7 +88,7 @@ In addition, to enable the animation between submodals it is necessary add class
 
 **Example:**
 ```html
-<div class="modal modalizer fade modal-optionable" data-stack="defaultStack" id="standart" tabindex= "-1" role="dialog">
+<div class="modal modalizer fade modal-optionable" data-stack="defaultStack" id="standard" tabindex= "-1" role="dialog">
     <div class="modal-dialog animate__animated" id="first_submodal" role="document">
         ...
         <button class="beforeaction">Before</button>
