@@ -1,6 +1,6 @@
 /*!
- * Modalizer.js v1.0.0 modalizerjs.jlgarridol.com
- * Copyright 2011-2020 José Luis Garrido-Labrador
+ * Modalizer.js v1.0.1 modalizerjs.jlgarridol.com
+ * Copyright 2020 José Luis Garrido-Labrador
  * Licensed under MIT (https://github.com/jlgarridol/modalizerjs/blob/main/LICENSE)
  */
 
@@ -152,9 +152,9 @@ if (typeof $().modal != 'function') {
             })
         });
 
-        $("#MOD_supreme-container").click(function(e){
+        /*$("#MOD_supreme-container").click(function(e){
             e.preventDefault();
-        })
+        });*/
     
     });  
     
