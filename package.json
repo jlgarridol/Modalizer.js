@@ -35,6 +35,6 @@
   },
   "devDependencies": {},
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "http://registry.npmjs.org/"
   }
 }
