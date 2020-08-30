@@ -14,8 +14,8 @@ $ npm install @jlgarridol/modalizer.js@1.0.1
 ```
 or add it directly using a CDN:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@jlgarridol/modalizer.js@1.0.1/dist/css/modalizer.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@jlgarridol/modalizer.js@1.0.1/dist/js/modalizer.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@jlgarridol/modalizer.js@1.0.2/dist/css/modalizer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@jlgarridol/modalizer.js@1.0.2/dist/js/modalizer.min.js"></script>
 ```
 
 ### Basic usage
