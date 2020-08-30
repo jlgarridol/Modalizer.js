@@ -10,7 +10,7 @@ Getting starting
 ### Installation
 Via npm
 ```bash
-$ npm install modalizer.js
+$ npm install @jlgarridol/modalizerjs
 ```
 or add it directly using a CDN:
 ```html

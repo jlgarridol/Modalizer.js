@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jlgarridol/modalizerjs.git"
+    "url": "git+https://github.com/jlgarridol/modalizer.js.git"
   },
   "keywords": [
     "bootstrap",
@@ -22,7 +22,7 @@
   "author": "Jose Luis Garrido-Labrador",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jlgarridol/modalizerjs/issues"
+    "url": "https://github.com/jlgarridol/modalizer.js/issues"
   },
   "homepage": "http://modalizerjs.jlgarridol.com",
   "dependencies": {
